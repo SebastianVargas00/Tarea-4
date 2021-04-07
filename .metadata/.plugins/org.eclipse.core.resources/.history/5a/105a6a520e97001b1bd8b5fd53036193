@@ -1,0 +1,24 @@
+package Proto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ICuenta cuentaAhorro = new ICuenta();
+		cuentaAhorro.setMonto(200);
+		
+		ICuenta cuentaAhorro2 = new ICuenta();
+		
+		ICuenta cuentaClonada = (ICuenta) cuentaAhorro.clonar();
+
+		System.out.println(cuentaAhorro);
+		System.out.println(cuentaAhorro2);
+		System.out.println(cuentaClonada);
+		
+		if (cuentaClonada != null) {
+			System.out.println(cuentaClonada);
+		}
+		System.out.println(cuentaClonada == cuentaAhorro);
+	}
+
+	}

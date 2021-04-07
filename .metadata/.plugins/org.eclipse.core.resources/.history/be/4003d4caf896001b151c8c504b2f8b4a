@@ -1,0 +1,12 @@
+package Diseño;
+
+public class Single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Logger logger=Logger.getInstance();
+       logger.log(2,3);
+       System.out.println(logger);
+	}
+
+}

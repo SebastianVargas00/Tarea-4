@@ -1,0 +1,14 @@
+package fachada;
+
+public class Patron {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fachada facade =new Fachada("texto 1");
+		facade.imprimir();
+		Fachada f2= new Fachada("texto 2");
+		f2.imprimir();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Diseño;
+
+public class Single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Logger logger=Logger.getInstance();
+       //logger.log(5,3);
+       Logger logger_2=Logger.getInstance();
+       logger.setValue("Hola mundo");
+       System.out.println(logger_2.getValue());
+       
+       //logger afecta directamente al logger_2 por que es la misma
+       //instancia del objeto
+       
+       //Este es el patron Singleton el cual es resumido como 
+       //un patrón de diseño que permite restringir la creación de objetos 
+       //pertenecientes a una clase o el valor de un tipo a un único objeto.
+	}
+
+}

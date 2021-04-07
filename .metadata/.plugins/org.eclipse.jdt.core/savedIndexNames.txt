@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\USER\Desktop\Patrones de diseño\.metadata\.plugins\org.eclipse.jdt.core
+2314610144.index
+976229347.index
+4019463812.index
